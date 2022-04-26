@@ -1,0 +1,109 @@
+/* * {
+    font-family: 'Inter';
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.wrapper {
+    display: flex;
+    /* justify-content: space-around; */
+
+}
+
+.signup-section {
+    width: 50%;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header-nav {
+    width: 100%;
+    height: 10%;
+    background-color: aliceblue;
+}
+
+h2,
+.signup-label,
+p {
+    display: flex;
+    /* float: left; */
+    font-size: 14px;
+}
+
+h2 {
+    top: 0;
+    /* margin-bottom: 32px; */
+    font-size: 30px;
+    padding-bottom: 10px;
+
+}
+
+input[type] {
+    padding: 10px 14px;
+}
+
+p {
+    float: left;
+}
+
+.signup-section .container {
+    width: 50%;
+    height: 58%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    background-color: #ffffff;
+}
+
+p,
+span {
+    color: #667085;
+}
+
+button {
+    background: #7f56d9;
+    border: 1px solid #7f56d9;
+    border-radius: 8px;
+    padding: 10px 18px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #ffffff;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    background: #5813ed;
+}
+
+.image-section {
+    position: relative;
+    width: 50%;
+}
+
+.image-section .image-show {
+    background: url('../../assets/img/iphone12.jpg') no-repeat;
+    background-size: contain;
+    background-color: #F9FAFB;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: calc(189/1440);
+    /* top: 120px; */
+}
