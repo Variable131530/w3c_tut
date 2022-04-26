@@ -3,8 +3,6 @@ import './SignUp.css';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom/client';
 import WebFont from 'webfontloader';
-import ConfirmOtp from '../confirm-otp/ConfirmOtp';
-import App from '../../App';
 const SignUp = function () {
     WebFont.load(
         {
@@ -13,19 +11,6 @@ const SignUp = function () {
             }
         }
     );
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        // alert(`The name you entered was: ${name}`)
-        // alert(`The name you entered was:`);
-        return (
-            <App>
-                <div className="App">
-                    <SignUp />
-                    {/* <ConfirmOtp /> */}
-                </div>
-            </App>
-        );
-    };
 
     return (
         <div className="wrapper">
